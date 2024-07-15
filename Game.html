@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="Style.scss">
+</head>
+<body>
+    <h1>Dice Game</h1>
+    <div id="game">
+        <div id="player" class="player-section">
+            <h2>Player</h2>
+            <img id="player-die1" src="Dice/dice1.png" alt="Player Die 1">
+            <img id="player-die2" src="Dice/dice1.png" alt="Player Die 2">
+            <p>Current Roll: <span id="player-roll"></span></p>
+            <p>Score: <span id="player-score"></span></p>
+        </div>
+        <div id="computer" class="player-section">
+            <h2>Computer</h2>
+            <img id="computer-die1" src="Dice/dice1.png" alt="Computer Die 1">
+            <img id="computer-die2" src="Dice/dice1.png" alt="Computer Die 2">
+            <p>Current Roll: <span id="computer-roll"></span></p>
+            <p>Score: <span id="computer-score"></span></p>
+        </div>
+    </div>
+    <button id="roll-dice">Roll Dice</button>
+    <button id="reset-game">Reset Game</button>
+    <p id="winner"></p>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
